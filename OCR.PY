@@ -29,6 +29,6 @@ def extract_content(file_path):
         raise ValueError("Unsupported file type")
 
 # Example usage
-file_path = 'path_to_your_file.pdf'  # or an image file
+file_path = '/Users/trams/Downloads/ocr pdf/CP_RING5_11172023.pdf'  # or an image file
 extracted_content = extract_content(file_path)
 print(extracted_content)
